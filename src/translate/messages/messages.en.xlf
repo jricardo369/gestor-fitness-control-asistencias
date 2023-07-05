@@ -1,0 +1,2554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" datatype="plaintext" original="ng2.template">
+        <body>
+            <trans-unit id="contelec.PareceQueTuSesionCaduco" datatype="html">
+                <source>Parece que tu sesión caducó, ingresa tus credenciales y presiona Ingresar para continuar usando el sistema</source>
+                <target>It seems that your session has expired, enter your credentials and press Enter to continue using the system</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/dialogo-login/dialogo-login.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="login.slogan1" datatype="html">
+                <source>Exponencialmente mejor</source>
+                <target>Exponentially better</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/login/login.component.html</context>
+                    <context context-type="linenumber">33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="login.slogan2" datatype="html">
+                <source>Preparate para aceptar el reto de la transformación digital.</source>
+                <target>Prepare to accept the challenge of digital transformation.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/login/login.component.html</context>
+                    <context context-type="linenumber">34</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="login.login" datatype="html">
+                <source>Ingresar</source>
+                <target>Enter</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/login/login.component.html</context>
+                    <context context-type="linenumber">37</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="login.forgotPassword" datatype="html">
+                <source>¿Olvidaste tu contraseña?</source>
+                <target>Did you forget your password?</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/login/login.component.html</context>
+                    <context context-type="linenumber">38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Refrescar" datatype="html">
+                <source>Refrescar</source>
+                <target>Refresh</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">37</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Estatus" datatype="html">
+                <source>Estatus</source>
+                <target>Status</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">17</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Terminar aprobación" datatype="html">
+                <source>Terminar aprobación</source>
+                <target>End approval</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cancelar" datatype="html">
+                <source>Cancelar</source>
+                <target>Cancel</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">240</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.selectXml" datatype="html">
+                <source>Seleccionar XML</source>
+                <target>Select XML</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/dialogo-de-carga-de-factura/dialogo-de-carga-de-factura.component.html</context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.xmlSelected" datatype="html">
+                <source>XML Seleccionado</source>
+                <target>Selected XML</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/dialogo-de-carga-de-factura/dialogo-de-carga-de-factura.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.noFileSelected" datatype="html">
+                <source>No hay archivo seleccionado</source>
+                <target>No file selected</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">135</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.selectPdf" datatype="html">
+                <source>Seleccionar PDF</source>
+                <target>Select PDF</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/dialogo-de-carga-de-factura/dialogo-de-carga-de-factura.component.html</context>
+                    <context context-type="linenumber">22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.pdfSelected" datatype="html">
+                <source>PDF Seleccionado</source>
+                <target>Selected PDF</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/dialogo-de-carga-de-factura/dialogo-de-carga-de-factura.component.html</context>
+                    <context context-type="linenumber">23</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.cancel" datatype="html">
+                <source>Cancelar</source>
+                <target>Cancel</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/dialogo-de-carga-de-factura/dialogo-de-carga-de-factura.component.html</context>
+                    <context context-type="linenumber">38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.sendFiles" datatype="html">
+                <source>Enviar archivos</source>
+                <target>Send files</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/dialogo-de-carga-de-factura/dialogo-de-carga-de-factura.component.html</context>
+                    <context context-type="linenumber">42</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.enviar" datatype="html">
+                <source>Enviar</source>
+                <target>Submit</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">169</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.limpiarSeleccion" datatype="html">
+                <source>Limpiar
+                        selección</source>
+                <target>Clear selection</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">21</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccionarTodasLasEntradas" datatype="html">
+                <source>Seleccionar todas las entradas</source>
+                <target>Select all entries</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">24</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.cancelar" datatype="html">
+                <source>Cancelar</source>
+                <target>Cancel</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">30</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.buscarPorNoOc" datatype="html">
+                <source> número orden de compra</source>
+                <target> purchase order number</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">55</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="fd582a8e1bea629a2b60d79e316226c1072ecaf6" datatype="html">
+                <source>Orden de compra</source>
+                <target>Purchase order</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">71</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.buscar" datatype="html">
+                <source>Buscar</source>
+                <target>Search for</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">126</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.siNecesitaAyudaPuedeLeerEl" datatype="html">
+                <source>Si necesita ayuda puede leer el </source>
+                <target>If you need help you can read the </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">67</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.manualDeCargaDeFacturas" datatype="html">
+                <source>manual de carga de facturas</source>
+                <target>invoice loading manual</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">68</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.buscarMasOC" datatype="html">
+                <source>Buscar más ordenes de compra</source>
+                <target>Search for more purchase orders</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">131</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seMuestranLasOrdenesDeLosNDiasEtc" datatype="html">
+                <source>
+                            Ordenes de
+                        </source>
+                <target>
+                            Orders from
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">97</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.diasParaVerMasHagaClick" datatype="html">
+                <source> días atras, para ver más haga click en
+                        </source>
+                <target> days ago, to see more click on
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">101</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seMuestraSoloResultadoDeOcBuscada" datatype="html">
+                <source>
+                        Se muestra solamente el resultado de la orden de compra buscada
+                    </source>
+                <target>
+                        Only the result of the requested purchase order is displayed
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">106</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccionaLaOc" datatype="html">
+                <source>Selecciona la orden de compra
+                    </source>
+                <target>Select the purchase order
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">119</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccionaLaOcDetalle" datatype="html">
+                <source>
+                            Selecciona una orden de compra del panel de la izquierda escribe el número de la orden que
+                            buscas en la caja de texto y presiona
+                        </source>
+                <target>
+                            Select a purchase order from the panel on the left write the order number you are looking for in the text box and press
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">122</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccionaLaOcDetalle2_0" datatype="html">
+                <source>
+                            Si tu orden de compra no es relativamente reciente puedes optar por presionar </source>
+                <target>
+                            If your purchase order is not relatively recent you can choose to press </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">129</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccioneLasEm" datatype="html">
+                <source>
+                            Seleccione las entradas de mercancía
+                        </source>
+                <target>
+                            Select goods receipt
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">146</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccioneLasEm1" datatype="html">
+                <source>
+                            Una entrada de mercancía seleccionada por $
+                        </source>
+                <target>
+                            A merchandise entry selected for $
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">150</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccioneLasEmN" datatype="html">
+                <source>
+                            entradas de mercancía seleccionadas por $
+                        </source>
+                <target>
+                            Selected goods receipt for $
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">157</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.seleccioneLasEmInfo" datatype="html">
+                <source> Seleccione debajo las entradas de mercancía
+                            que desea enviar. Cuando esté conforme con su
+                            selección presione </source>
+                <target> Select below the goods receipt you wish to send. When you are satisfied with your selection press </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">167</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Referencia" datatype="html">
+                <source>Referencia</source>
+                <target>Reference</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">126</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="c7c999fa79fb0c256716dc665ab0dbe9dda70d7d" datatype="html">
+                <source>Si desea ver las entradas de mercancía en tabla, haga clic
+                            en </source>
+                <target>If you want to see the goods receipt in table, click on </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">248</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="246214051cc89e8715502b7b9549d6928c93700d" datatype="html">
+                <source>mostrar vista de tabla</source>
+                <target>show table view</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">250</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="749542d537713181e49eb59f771aa0d03ba1a9df" datatype="html">
+                <source>Si desea volver a la vista por defecto, haga clic en
+                        </source>
+                <target>If you want to return to the default view, click on
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">255</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2e2eb7c78f3fea8d2f6a5f19e79aebfd1d7737d9" datatype="html">
+                <source>volver a la vista simple</source>
+                <target>return to simple view</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/entradas-de-mercancia/entradas-de-mercancia.component.html</context>
+                    <context context-type="linenumber">257</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="a09363d7c4f509e815b0c4b366ef9a4365a05be9" datatype="html">
+                <source>Carga de facturas de nota de crédito</source>
+                <target>Loading credit note incoming invoices</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="9ac3c79f2853865ede235d73c45d37e65c3e6608" datatype="html">
+                <source>Seleccione los archivos
+                    </source>
+                <target>Select the files
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ea01e33fa18e93af19cf736a8a9c173b3cda19f6" datatype="html">
+                <source>
+                        Presione el botón seleccionar archivos del fondo. Si la nota de crédito está relacionada
+                        con una orden de compra marque el checkbox de abajo y llene la caja de texto que aparecerá
+                    </source>
+                <target>
+                        Press the button select files from the background. If the credit note is related to a purchase order, check the checkbox below and fill in the text box that will appear
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">30</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="811738fff337cf527f0a67e0e37245815a3af517" datatype="html">
+                <source>Con orden de compra</source>
+                <target>With purchase order</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="333d9f5e00e2ca9997e1fcb2299f8786cc8d7b3c" datatype="html">
+                <source>Sin orden de compra</source>
+                <target>No purchase order</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="740f72f688dc83524b37c2c688909634f94d6a7c" datatype="html">
+                <source>Por devolución de mercancía
+                            </source>
+                <target>For return of merchandise
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="09bd033a23a3a9505312d8f2e969e0b6948314cc" datatype="html">
+                <source>Por diferencia de precio
+                            </source>
+                <target>For price difference
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">59</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d591b8bc91a0b7a757fae6c9e0b0eb2d8e5ab5f8" datatype="html">
+                <source>Seleccionar archivos</source>
+                <target>Select files</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/nota-de-credito/nota-de-credito.component.html</context>
+                    <context context-type="linenumber">67</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="dd738133abecec8a5eb822546e397c36619e1254" datatype="html">
+                <source>Si necesita ayuda puede leer el </source>
+                <target>If you need help you can read the </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">106</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="adfad192fa1634e032b4c888abb881a7662e3545" datatype="html">
+                <source>manual de carga de facturas</source>
+                <target>invoice loading manual</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">107</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6a02daa4567bda6ea4b62ef67d2c2d2733423963" datatype="html">
+                <source>Consulta de facturas</source>
+                <target>Incoming invoice report</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3823662cd58e6b58fcffacc154afab342943493b" datatype="html">
+                <source>Sociedad</source>
+                <target>Society</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5713bf1f6226be36855274b51c3aca519823ffe2" datatype="html">
+                <source>Proveedor</source>
+                <target>Provider</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">23</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e583d65b253bb73becb2eb15b824bb7c7747f8d5" datatype="html">
+                <source>Orden de Compra</source>
+                <target>Purchase order</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">24</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2e71449de87041c0ed021f680fca02628a22fc39" datatype="html">
+                <source>Número de Referencía</source>
+                <target>Reference number</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">25</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="daa3d0a8e9257881bf63bb084916ed6ee1ed1776" datatype="html">
+                <source>Importe</source>
+                <target>Amount</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="a849ee4ad0ed85778848f0b966b6b80972968ea7" datatype="html">
+                <source>Moneda</source>
+                <target>Currency</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="b173ec5192470d6b2da768338bc24a965d7e001c" datatype="html">
+                <source>Fecha</source>
+                <target>Date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">28</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e29a2f1fddb6986ab5aa170513004c303155581d" datatype="html">
+                <source>Serie</source>
+                <target>Series</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="85275e2a3edeb4544c5db9ae7397bac3421102b4" datatype="html">
+                <source>Folio</source>
+                <target>Folio</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">30</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="96bd584b70405e041722516f1b55ffcfa0ccf777" datatype="html">
+                <source>Status Factura</source>
+                <target>Status Invoice</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">31</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="d03939b049c86dc67468903e51aeba3b37cd4b94" datatype="html">
+                <source>Documento de Pago</source>
+                <target>Payment document</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">32</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ae4d910e439d9614f9c66939f2747df5404604ca" datatype="html">
+                <source>Fecha de Pago</source>
+                <target>Payment date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="010ce09b414edcbd741ebd49e9cdb2bc18f3d2e3" datatype="html">
+                <source>Define los parametros de
+                        búsqueda
+                    </source>
+                <target>Define the search parameters
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">60</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ad135f356aa3b1a55c4a7c9ae38620398a9d25cc" datatype="html">
+                <source>
+                        Busca por orden de compra o por rango de fechas
+                    </source>
+                <target>
+                        Search by purchase order or by date range
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">64</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="0541485186f30c3675c2d4a2ce4615bb32bcc11b" datatype="html">
+                <source>Opcional</source>
+                <target>Optional</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">96</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5cfc493d483124a18568865c25bc47f03898fa42" datatype="html">
+                <source>Fecha inicial</source>
+                <target>Initial date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">77</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="618ea1404cba6bcd7a173367bbe59ae70b5e87fc" datatype="html">
+                <source>Este campo es
+                        obligatorio si no se especifica una orden de compra</source>
+                <target>This field is required if a purchase order is not specified</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">91</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e4bb05109724c581faf9276310772b7c3ce505f6" datatype="html">
+                <source>Fecha final</source>
+                <target>Final date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">86</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="c5c53719cfe255f1848154ca292282e7c7ce0a2b" datatype="html">
+                <source>Documento referencia</source>
+                <target>Reference document</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">95</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7413ff8c97dfa61bdc50ce46b3227ed72d98bfed" datatype="html">
+                <source>Consultar</source>
+                <target>Consult</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/proveedores/consulta-de-facturas/consulta-de-facturas.component.html</context>
+                    <context context-type="linenumber">103</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Configuración de Cajas chicas" datatype="html">
+                <source>Configuración de Cajas chicas</source>
+                <target>Configuration of petty cash</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha de inicial de facturas de caja chica" datatype="html">
+                <source>Fecha de inicial de
+                facturas de caja chica</source>
+                <target>Initial date of petty cash invoices</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">19</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha inicial de carga" datatype="html">
+                <source>Fecha inicial de carga</source>
+                <target>Initial loading date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">64</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cacachiadmin-1" datatype="html">
+                <source>
+                Las facturas electrónicas cargadas a caja chica emitidas antes de esta fecha son automaticamente
+                rechazadas por el sistema.
+            </source>
+                <target>
+                Electronic invoices uploaded to the petty cash module issued before this date are automatically rejected by the system.
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cacachiadmin-2" datatype="html">
+                <source>
+                El formato de fecha es año, mes, dia (YYYY-MM-DD)
+            </source>
+                <target>
+                The date format is year, month, day (YYYY-MM-DD)
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">34</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cambiar fecha" datatype="html">
+                <source>Cambiar fecha</source>
+                <target>Change date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">86</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Crear caja" datatype="html">
+                <source>Crear
+                    caja</source>
+                <target>Create a box</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.cajas chicas" datatype="html">
+                <source>Cajas Chicas</source>
+                <target>Multiple petty cash</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="&gt;No. Caja" datatype="html">
+                <source>No. Caja</source>
+                <target>No. Box</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="&gt;Descripción" datatype="html">
+                <source>Descripción</source>
+                <target>Description</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">27</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="&gt;No. Acreedor / Empleado SAP" datatype="html">
+                <source>No. Acreedor / Empleado SAP</source>
+                <target>No. Creditor / Employee SAP</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">28</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="&gt;CME" datatype="html">
+                <source>CME</source>
+                <target>CME</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="&gt;Usuario portal" datatype="html">
+                <source>Usuario portal</source>
+                <target>Portal user</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/cajas-chicas/cajas-chicas.component.html</context>
+                    <context context-type="linenumber">30</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Caja chica" datatype="html">
+                <source>Caja chica</source>
+                <target>Petty cash</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">134</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Eliminar" datatype="html">
+                <source>Eliminar</source>
+                <target>Remove</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">47</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="No. Caja" datatype="html">
+                <source>No. Caja</source>
+                <target>No. Box</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">25</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Descripción" datatype="html">
+                <source>Descripción</source>
+                <target>Description</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">32</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="No. Acreedor / Empleado SAP" datatype="html">
+                <source>No. Acreedor / Empleado SAP</source>
+                <target>No. Creditor / Employee SAP</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">35</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="No. Acreedor / Empleado SAP - hint" datatype="html">
+                <source>Acreedor a quien se imputara la caja
+                    chica</source>
+                <target>Creditor to whom the petty cash is imputed</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="CME" datatype="html">
+                <source>CME</source>
+                <target>CME</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">42</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Usuario responsable" datatype="html">
+                <source>Usuario responsable</source>
+                <target>Responsible user</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">46</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Usuario responsable - hint" datatype="html">
+                <source>Es
+                    el nombre de usuario del
+                    responsable de la caja chica. Es quien carga los comprobantes.</source>
+                <target>It is the username of the person responsible for the petty cash. He is the one who loads the receipts.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sociedades" datatype="html">
+                <source>Sociedades</source>
+                <target>Companies</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">55</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Agregar sociedad" datatype="html">
+                <source>Agregar sociedad</source>
+                <target>Add company</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Guardar" datatype="html">
+                <source>Guardar</source>
+                <target>save</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">141</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Crear" datatype="html">
+                <source>Crear</source>
+                <target>Create</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">140</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Eliminar caja chica" datatype="html">
+                <source>Eliminar caja chica</source>
+                <target>Remove petty cash</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">91</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Eliminar caja chica - message" datatype="html">
+                <source>Estás a punto de borrar la caja, esta operación es
+                    irreversible ¿Estás seguro que deseas eliminar?
+                </source>
+                <target>You are about to delete the box, this operation is irreversible. Are you sure you want to delete?
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/caja-chica/caja-chica.component.html</context>
+                    <context context-type="linenumber">87</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Crear gastos caja" datatype="html">
+                <source>Crear
+                    gastos caja</source>
+                <target>Create cashier expenses</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gastos-caja/gastos-caja.component.html</context>
+                    <context context-type="linenumber">12</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Gastos cajas" datatype="html">
+                <source>Gastos cajas</source>
+                <target>Box expenses</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gastos-caja/gastos-caja.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="No. Operación" datatype="html">
+                <source>No. Operación</source>
+                <target>No. Operation</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">24</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cuenta de mayor" datatype="html">
+                <source>Cuenta de mayor</source>
+                <target>G / L account</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">36</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Aceptar" datatype="html">
+                <source>Aceptar</source>
+                <target>To accept</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">159</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Gasto caja" datatype="html">
+                <source>Gasto caja</source>
+                <target>Cash expenditure</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Activado para visualización" datatype="html">
+                <source>Activado para visualización</source>
+                <target>Enabled for viewing</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">41</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Deducible de impuestos" datatype="html">
+                <source>Deducible de impuestos</source>
+                <target>Tax-deductible</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Agregar sociedades" datatype="html">
+                <source>Agregar sociedad</source>
+                <target>Add company</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">68</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Indicador IVA" datatype="html">
+                <source>Indicador IVA</source>
+                <target>IVA indicator</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">84</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Otras gastos" datatype="html">
+                <source>Otros gastos</source>
+                <target>Other expenses</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">90</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cuenta contable" datatype="html">
+                <source>Cuenta contable</source>
+                <target>Accounting account</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">159</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Indicador otros gastos" datatype="html">
+                <source>Indicador otros gastos</source>
+                <target>Other expenses indicator</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">103</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Indicador ISH" datatype="html">
+                <source>Indicador ISH</source>
+                <target>ISH indicator</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">123</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Indicador TUA" datatype="html">
+                <source>Indicador TUA</source>
+                <target>TUA indicator</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">143</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Indicador IEPS" datatype="html">
+                <source>Indicador IEPS</source>
+                <target>IEPS indicator</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">163</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="gastocaja-crud-1" datatype="html">
+                <source>Eliminar gasto caja</source>
+                <target>Eliminate spending cash</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">186</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="gastocaja-crud-2" datatype="html">
+                <source>Estás a punto de borrar la caja, esta operación es irreversible ¿Estás
+                    seguro
+                    que
+                    deseas eliminar?</source>
+                <target>You are about to delete the box, this operation is irreversible. Are you sure you want to delete?</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">187</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="gastocaja-crud-3" datatype="html">
+                <source>Eliminar la caja chica</source>
+                <target>Remove the petty cash</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-caja-chica/gasto-caja/gasto-caja.component.html</context>
+                    <context context-type="linenumber">192</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Crear usuario" datatype="html">
+                <source>Crear Usuario</source>
+                <target>Create User</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Carga masiva" datatype="html">
+                <source>Carga masiva</source>
+                <target>Bulk Load</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Usuarios" datatype="html">
+                <source>Usuarios</source>
+                <target>Users</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Búsqueda" datatype="html">
+                <source>Búsqueda</source>
+                <target>Search</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">37</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Id" datatype="html">
+                <source>Id</source>
+                <target>Id</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Correo electrónico" datatype="html">
+                <source>Correo electrónico</source>
+                <target>Email</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">114</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Nombre" datatype="html">
+                <source>Nombre</source>
+                <target>Name</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">67</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Usuario" datatype="html">
+                <source>Usuario</source>
+                <target>User</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Contraseña" datatype="html">
+                <source>Contraseña</source>
+                <target>Password</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.RFC" datatype="html">
+                <source>RFC</source>
+                <target>RFC</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">72</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Sociedad" datatype="html">
+                <source>Sociedad</source>
+                <target>Society</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">43</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Centro de costo" datatype="html">
+                <source>Centro de costo</source>
+                <target>Cost center</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">89</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Rol" datatype="html">
+                <source>Rol</source>
+                <target>Role</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">50</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Igual" datatype="html">
+                <source>Igual</source>
+                <target>Same</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">61</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Mayor" datatype="html">
+                <source>Mayor</source>
+                <target>Higher</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Mayor o Igual" datatype="html">
+                <source>Mayor o Igual</source>
+                <target>Greater or Equal</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">63</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Menor" datatype="html">
+                <source>Menor</source>
+                <target>Less</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">64</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Menor o Igual" datatype="html">
+                <source>Menor o Igual</source>
+                <target>Minor or Equal</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">65</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Comienza con" datatype="html">
+                <source>Comienza con</source>
+                <target>Start with</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">66</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Termina con" datatype="html">
+                <source>Termina con</source>
+                <target>Ends with</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">67</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Contiene" datatype="html">
+                <source>Contiene</source>
+                <target>It contains</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">68</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="5d5168fbfa13cd1cbdc2f91d9debb415db804362" datatype="html">
+                <source>Texto / Número</source>
+                <target>Text / Number</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">73</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="f5e9c36860062653b1f07ee983725f94d25e5a4b" datatype="html">
+                <source>Aplicar filtros</source>
+                <target>Apply filters</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">89</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Limpiar filtros" datatype="html">
+                <source>Limpiar filtros</source>
+                <target>Clean filters</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">91</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Agregafiltrosdesc" datatype="html">
+                <source>
+                    Agrega uno o más filtros para facilitar la búsqueda de usuarios
+                </source>
+                <target>
+                    Add one or more filters to facilitate user search
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">92</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Agregarfiltros" datatype="html">
+                <source>Agregar filtro</source>
+                <target>Add filter</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">96</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Area" datatype="html">
+                <source>Area</source>
+                <target>Area</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">116</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="registrosporpagina" datatype="html">
+                <source>
+                        </source>
+                <target></target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">136</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sin resultados" datatype="html">
+                <source>Sin resultados</source>
+                <target>Without results</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">162</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="c32eba2b19e038020c8aa67eff18877406c3af49" datatype="html">
+                <source>No hay usuarios
+                    dentro del criterio de búsqueda. Asegurate de que los nombres son los correctos y que están buscando
+                    en el campo apropiado</source>
+                <target>There are no users within the search criteria. Make sure the names are correct and that you are looking in the appropriate field</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">163</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Eliminar usuarios" datatype="html">
+                <source>Eliminar usuarios</source>
+                <target>Remove users</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">184</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Estarporborrarmuchosusuarios" datatype="html">
+                <source>Estás a punto de borrar usuarios, esta operación es
+                    irreversible ¿estás seguro de que deseas
+                    eliminarlos
+                    a todos?</source>
+                <target>You are about to delete users, this operation is irreversible. Are you sure you want to eliminate them all?</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">179</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Usuarios no eliminados" datatype="html">
+                <source>Usuarios no eliminados</source>
+                <target>Users not deleted</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">195</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Usuarios no eliminados razón" datatype="html">
+                <source>Por lo menos uno de los usuarios no pudo ser eliminado mediante
+                    la eliminación masiva, eliminelo
+                    desde su pantalla individual</source>
+                <target>At least one of the users could not be eliminated by the massive deletion, delete it from your individual screen</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuarios/usuarios.component.html</context>
+                    <context context-type="linenumber">196</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Nuevo usuario" datatype="html">
+                <source>Nuevo usuario</source>
+                <target>New user</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Agregar sociedad auxiliar" datatype="html">
+                <source>Agregar sociedad auxiliar</source>
+                <target>Add auxiliary company</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Email" datatype="html">
+                <source>Email</source>
+                <target>E-mail</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">77</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuarios.Área" datatype="html">
+                <source>Área</source>
+                <target>Area</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">82</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Permisos" datatype="html">
+                <source>Permisos</source>
+                <target>Permissions</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">95</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Asigne los permisos para dar acceso a pantallas etc" datatype="html">
+                <source>Asigne los permisos para dar acceso a
+                    pantallas y
+                    operaciones</source>
+                <target>Assign permissions to give access to screens and operations</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">97</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sociedades auxiliares" datatype="html">
+                <source>Sociedades auxiliares</source>
+                <target>Auxiliary companies</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">112</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sociedades auxiliares descripción" datatype="html">
+                <source>Ademas de la
+                    sociedad principal, un usuario puede tener
+                    varias sociiedades auxiliares</source>
+                <target>In addition to the main society, a user may have several auxiliary societies</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">113</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sociedad" datatype="html">
+                <source>Sociedad</source>
+                <target>Society</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">142</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Rfc" datatype="html">
+                <source>Rfc</source>
+                <target>Rfc</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">120</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="usuario - El usuario no tiene sociedades auxiliares, para..." datatype="html">
+                <source>
+                </source>
+                <target></target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/usuario/usuario.component.html</context>
+                    <context context-type="linenumber">129</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.select" datatype="html">
+                <source>Seleccionar</source>
+                <target>Select</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/carga-masiva-de-usuarios/carga-masiva-de-usuarios.component.html</context>
+                    <context context-type="linenumber">37</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.selected" datatype="html">
+                <source>Seleccionado</source>
+                <target>Selected</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/carga-masiva-de-usuarios/carga-masiva-de-usuarios.component.html</context>
+                    <context context-type="linenumber">38</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Tareas programadas" datatype="html">
+                <source>Tareas programadas</source>
+                <target>Scheduled tasks</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/tareas-programadas/tareas-programadas.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sincronización de datos con SAP" datatype="html">
+                <source>Sincronización de datos con SAP</source>
+                <target>Synchronization of data with SAP</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/tareas-programadas/tareas-programadas.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Sincronización de datos con SAP - detalle" datatype="html">
+                <source>Se realiza diariamente durante la noche (a las 3:00 a.m. horario del servidor). Si fuese necesario sincronizar
+                fuera de las horas programadas —por ejemplo, para registrar un proveedor— es posible forzar la sincronización
+                con el botón de abajo.</source>
+                <target>It is done daily during the night (at 3:00 am server time). If it is necessary to synchronize outside the scheduled times -for example, to register a provider- it is possible to force the synchronization with the button below.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/tareas-programadas/tareas-programadas.component.html</context>
+                    <context context-type="linenumber">12</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Forzar sincronización" datatype="html">
+                <source>Forzar sincronización</source>
+                <target>Force synchronization</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/tareas-programadas/tareas-programadas.component.html</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Configuración general" datatype="html">
+                <source>Configuración general</source>
+                <target>General configuration</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha de inicial de facturas de proveedores" datatype="html">
+                <source>Fecha de inicial de
+                facturas de proveedores</source>
+                <target>Initial invoice date for suppliers</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">20</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="configuracion general - 1" datatype="html">
+                <source>
+                Las facturas electrónicas cargadas por proveedores emitidas antes de esta fecha son automaticamente
+                rechazadas por el sistema.
+            </source>
+                <target>
+                Electronic invoices charged by suppliers issued before this date are automatically rejected by the system.
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">31</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="configuracion general - 2" datatype="html">
+                <source>
+                El formato de fecha es año, mes, dia (YYYY-MM-DD)
+            </source>
+                <target>
+                The date format is year, month, day (YYYY-MM-DD)
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">37</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha de inicial de facturas por FB60" datatype="html">
+                <source>Fecha de inicial de facturas por FB60</source>
+                <target>Initial invoice date for FB60</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">61</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="configuracion general - 3" datatype="html">
+                <source>
+                Las facturas electrónicas cargadas por FB60 emitidas antes de esta fecha son automaticamente rechazadas
+                por el sistema.
+            </source>
+                <target>
+                The electronic invoices charged by FB60 issued before this date are automatically rejected by the system.
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">70</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="configuracion general - 4" datatype="html">
+                <source>
+                El formato de fecha es año, mes, dia (YYYY-MM-DD)
+            </source>
+                <target>
+                The date format is year, month, day (YYYY-MM-DD)
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/administracion-general/configuracion/configuracion.component.html</context>
+                    <context context-type="linenumber">75</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Id" datatype="html">
+                <source>Id</source>
+                <target>Id</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">106</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Crear solicitud" datatype="html">
+                <source>
+                    Crear solicitud</source>
+                <target>
+                    Create request</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">11</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Mostrar todas las solicitudes" datatype="html">
+                <source>Mostrar todas las solicitudes
+                    </source>
+                <target>Show all requests
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e2c8bfc81c296ef560a1fd654da5ef25c60ddb3d" datatype="html">
+                <source> Si desea ver las solicitudes de una sola caja chica a su cargo seleccionela
+                en el combobox de arriba. </source>
+                <target> If you want to see the requests of a single petty cash to your charge select it in the combobox above. </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">35</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Mostrar solicitudes de todas las sociedades" datatype="html">
+                <source>Mostrar solicitudes de
+                        todas las sociedades</source>
+                <target>Show requests from all companies</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">42</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help3" datatype="html">
+                <source>
+                Si desea ver las solicitudes de una sola sociedad de la caja chica seleccionela en el combobox de
+                arriba.
+            </source>
+                <target>
+                If you want to see the requests of a single society of the petty cash select it in the combobox above.
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">49</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help4" datatype="html">
+                <source>No tiene solicitudes abiertas, rechazadas, pendientes de
+                        autorización o contabilización.</source>
+                <target>It has no open requests, rejected, pending authorization or posting.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">58</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help4.1" datatype="html">
+                <source>Para crear una solicitud presione el botón Crea solicitud de
+                        la barra de herramientas de arriba.
+                    </source>
+                <target>To create a request, click the Create Request button in the toolbar above.
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">60</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help6" datatype="html">
+                <source>No tiene autorizaciones pendientes, buen trabajo.</source>
+                <target>You have no pending authorizations, good job.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">68</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help7" datatype="html">
+                <source>No tiene solicitudes contabilizadas.</source>
+                <target>It has no posted requests.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">71</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help8" datatype="html">
+                <source>Para que una solicitud se contabilice debe ir a la
+                            pantalla de </source>
+                <target>For a request to be posted you must go to the screen </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">72</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help9" datatype="html">
+                <source>Tus solicitudes pendientes</source>
+                <target>Your pending requests</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">74</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help10" datatype="html">
+                <source> y crear una solicitud.
+                        </source>
+                <target> and create a request.
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">75</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help11" datatype="html">
+                <source>Si cree que esto es un error puede presionar el botón Refrescar de
+                    arriba, esto actualizará la lista de solicitudes de la pantalla.</source>
+                <target>If you think this is a mistake you can press the Refresh button above, this will update the list of screen requests.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">79</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha de documento" datatype="html">
+                <source>Fecha de documento</source>
+                <target>Document date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">97</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha de contabilizacion" datatype="html">
+                <source>Fecha de contabilizacion</source>
+                <target>Posting date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">98</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachica.solcont.help1" datatype="html">
+                <source>
+                    Para ver el detalle de una solicitud, haga clic en el Id o la Referencia del registro</source>
+                <target>
+                    To see the detail of a request, click on the Id or the Registry Reference</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitudes-de-contabilizacion/solicitudes-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">113</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Agregar gasto" datatype="html">
+                <source>Agregar gasto</source>
+                <target>Add expense</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">16</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Solicitar aprobación" datatype="html">
+                <source>Solicitar aprobación</source>
+                <target>Request approval</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Seleccionar todos" datatype="html">
+                <source>Seleccionar todos</source>
+                <target>Select all</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">32</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Imprimir" datatype="html">
+                <source>Imprimir</source>
+                <target>Print</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">42</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Mostrar cabecera" datatype="html">
+                <source>Mostrar cabecera</source>
+                <target>Show header</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">52</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cabecera de solicitud" datatype="html">
+                <source>
+                        Cabecera de solicitud
+                    </source>
+                <target>
+                        Request header
+                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">101</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Texto de referencia" datatype="html">
+                <source>Texto de referencia</source>
+                <target>Reference text</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">128</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha documento" datatype="html">
+                <source>Fecha documento</source>
+                <target>Document date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">149</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Fecha contabilización" datatype="html">
+                <source>Fecha contabilización</source>
+                <target>Posting date</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">156</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Crear nueva solicitud" datatype="html">
+                <source>Crear nueva solicitud</source>
+                <target>Create new request</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">174</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Editar cabecera" datatype="html">
+                <source>Editar cabecera</source>
+                <target>Edit header</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">183</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Guardar cambios" datatype="html">
+                <source>Guardar cambios</source>
+                <target>Save Changes</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">190</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="e14c76a09101004700884deb8f2432c231268f2f" datatype="html">
+                <source>Selecciona
+                                chaja
+                                chica y sociedad</source>
+                <target>Select girl and society</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">213</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="02089acc61807d882b1dcacf3947fe8e8d0f0a6a" datatype="html">
+                <source> Selecciona la caja chica y la sociedad de los combobox de
+                                la
+                                izquierda y presiona el botón Crear nueva solicitud. Una vez creada la solicitud podrás
+                                agregar gastos.
+                            </source>
+                <target> Select the petty cash and the combobox society on the left and press the Create new request button. Once the application is created you can add expenses.
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">217</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="gastos cargados" datatype="html">
+                <source>gastos cargados</source>
+                <target>charged expenses</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">228</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Un gasto cargado" datatype="html">
+                <source>Un gasto
+                                cargado</source>
+                <target>An expense charged</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">229</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cargue sus gastos" datatype="html">
+                <source>Cargue sus gastos</source>
+                <target>Load your expenses</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">232</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.help2" datatype="html">
+                <source>
+                                Presione el botón agregar gasto en la barra de herramientas de arriba para agregar
+                                gastos a
+                                su solicitud de contabilización de caja chica.
+                            </source>
+                <target>
+                                Press the add expense button on the toolbar above to add expenses to your petty cash accounting request.
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">235</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.help3" datatype="html">
+                <source>La solicitud tiene por estatus </source>
+                <target>The request has status </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">242</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.help4" datatype="html">
+                <source>, en este momento no
+                                    es posible agregar o remover gastos. </source>
+                <target>, at this time it is not possible to add or remove expenses. </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">243</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Apruebe o rechace los comprobantes" datatype="html">
+                <source>Apruebe o rechace
+                                los
+                                comprobantes</source>
+                <target>Approve or reject vouchers</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">261</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.help5" datatype="html">
+                <source>
+                                Para aprobar o rechazar un gasto presione el renglón y luego la acción correspondiente
+                                que
+                                aparecerá en el menú de arriba. Puede seleccionar varios gastos a la vez.
+                            </source>
+                <target>
+                                To approve or reject an expense press the line and then the corresponding action that will appear in the menu above. You can select several expenses at the same time.
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">265</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Id Comprobante" datatype="html">
+                <source>Id Comprobante </source>
+                <target>Id Proof </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">279</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Documento contable" datatype="html">
+                <source>Documento
+                                        contable
+                                    </source>
+                <target>Accounting document
+                                    </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">281</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Operación" datatype="html">
+                <source>Operación </source>
+                <target>Operation </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">284</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Total" datatype="html">
+                <source>Total </source>
+                <target>Total </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">219</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Subtotal" datatype="html">
+                <source>Subtotal </source>
+                <target>Subtotal </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">179</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Descuento" datatype="html">
+                <source>Descuento </source>
+                <target>Discount </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">288</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="IVA" datatype="html">
+                <source>IVA </source>
+                <target>VAT </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">289</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Otros gastos" datatype="html">
+                <source>Otros gastos </source>
+                <target>Other expenses </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">290</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="ISH" datatype="html">
+                <source>ISH </source>
+                <target>ISH </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">291</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="TUA" datatype="html">
+                <source>TUA </source>
+                <target>TUA </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">292</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="IEPS" datatype="html">
+                <source>IEPS </source>
+                <target>IEPS </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">293</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Texto" datatype="html">
+                <source>Texto </source>
+                <target>Text </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">22</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Ceco" datatype="html">
+                <source>Ceco </source>
+                <target>Ceco </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">295</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Orden" datatype="html">
+                <source>Orden </source>
+                <target>Order </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">62</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Centro de beneficio" datatype="html">
+                <source>Centro de
+                                        beneficio </source>
+                <target>Profit center </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">67</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Elemento PEP" datatype="html">
+                <source>Elemento PEP </source>
+                <target>PEP Element </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">43</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Grafo" datatype="html">
+                <source>Grafo </source>
+                <target>Grafo </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">47</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Op. Grafo" datatype="html">
+                <source>Op. Grafo </source>
+                <target>Op. Grafo </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">301</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="XML" datatype="html">
+                <source>XML </source>
+                <target>XML </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">302</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="PDF" datatype="html">
+                <source>PDF </source>
+                <target>PDF </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">303</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Gasto" datatype="html">
+                <source>Gasto</source>
+                <target>Expenditure</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">312</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.help7" datatype="html">
+                <source> Si desea mostrar todas las columnas en la tabla haga
+                                clic en </source>
+                <target> If you want to show all the columns in the table click on </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">388</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.help8" datatype="html">
+                <source>Si desea ocultar las columnas en ceros o con campos
+                                vacíos ha clic en </source>
+                <target>If you want to hide the columns in zeros or with empty fields click on </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">397</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.historialdesolicitud" datatype="html">
+                <source>
+                                Historial de solicitud
+                            </source>
+                <target>
+                                Request History
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">411</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="04fcb605802cfe1fd198f4c6995059060b3e39bf" datatype="html">
+                <source> Se enlistan los eventos de aprobación
+                                de esta solicitud. Se muestran los mas recientes primero.
+                            </source>
+                <target> The approval events for this application are listed. The most recent are shown first.
+                            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">415</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.mostrarBitacora0" datatype="html">
+                <source>La solicitud
+                                tiene una bitacora de eventos. </source>
+                <target>The request has an event log. </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">436</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.mostrarBitacora" datatype="html">
+                <source>Mostrar bitacora</source>
+                <target>Show logbook</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">439</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.singlesol.ocultarBitacora" datatype="html">
+                <source>Ocultar bitacora</source>
+                <target>Hide logbook</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/solicitud-de-contabilizacion/solicitud-de-contabilizacion.component.html</context>
+                    <context context-type="linenumber">442</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.TusCredenciales" datatype="html">
+                <source>Tus credenciales</source>
+                <target>Your credentials</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/bar/bar.component.html</context>
+                    <context context-type="linenumber">80</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.CerrarSesion" datatype="html">
+                <source>Cerrar sesión</source>
+                <target>Sign off</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/bar/bar.component.html</context>
+                    <context context-type="linenumber">83</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="contelec.ContabilidadElectronica" datatype="html">
+                <source>Contabilidad electrónica</source>
+                <target>Electronic accounting</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/bar/bar.component.html</context>
+                    <context context-type="linenumber">114</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="mycredentials.Credenciales para usuario" datatype="html">
+                <source>Credenciales para usuario</source>
+                <target>Credentials for user</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Contraseña" datatype="html">
+                <source>Contraseña</source>
+                <target>Password</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Contraseña - info mycredentials" datatype="html">
+                <source>Una buena contraseña debe ser dificil de
+            adivinar y facil de recordar; pero tambien debe ser joven, acostumbrate
+            a cambiar tu contraseña periodicamente</source>
+                <target>A good password should be hard to guess and easy to remember; but you must also be young, get used to changing your password periodically</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cambiar contraseña" datatype="html">
+                <source>Cambiar contraseña</source>
+                <target>Change Password</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">26</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Nueva contraseña" datatype="html">
+                <source>Nueva contraseña</source>
+                <target>New Password</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">17</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Nueva contraseña (repetir)" datatype="html">
+                <source>Nueva contraseña (repetir)</source>
+                <target>New password (repeat)</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">21</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Correo electrónico" datatype="html">
+                <source>Correo electrónico</source>
+                <target>Email</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">35</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Correo electrónico - info mycredentials" datatype="html">
+                <source>Si prefieres recibir tus
+            notificaciones a una dirección distinta, cambia tu dirección de correo electrónico</source>
+                <target>If you prefer to receive your notifications to a different address, change your email address</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">36</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="mycredentials1" datatype="html">
+                <source>Nueva dirección de correo electrónico</source>
+                <target>new e-mail adress</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">43</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="mycredentials2" datatype="html">
+                <source>Nueva dirección de correo electrónico (repetir)</source>
+                <target>New email address (repeat)</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">50</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="mycredentials3" datatype="html">
+                <source>Cambiar correo electrónico</source>
+                <target>Change email</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/common/tus-credenciales/tus-credenciales.component.html</context>
+                    <context context-type="linenumber">53</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Cargar gasto" datatype="html">
+                <source>Cargar gasto</source>
+                <target>Load spending</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">1</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Operación contable" datatype="html">
+                <source>Operación contable</source>
+                <target>Accounting operation</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">10</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Asignacion" datatype="html">
+                <source>Asignacion</source>
+                <target>Assignment</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">28</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Centro de costos" datatype="html">
+                <source>Centro de costos</source>
+                <target>Cost center</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">39</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Operación grafo" datatype="html">
+                <source>Operación grafo</source>
+                <target>Graph operation</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">51</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help13" datatype="html">
+                <source>Debe llenar uno solo de los campos de arriba, si llena el campo de
+                grafo debe llenar operación grafo tambien
+            </source>
+                <target>You must fill one of the fields above, if you fill in the field you must fill in the graph operation
+            </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">57</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Enviar gasto" datatype="html">
+                <source>Enviar gasto</source>
+                <target>Send expense</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">242</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Seleccione el tipo" datatype="html">
+                <source>Seleccione el tipo</source>
+                <target>Select type</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">92</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help1" datatype="html">
+                <source>Seleccione del
+                        combobox de la izquierda el tipo de operación del gasto que va a cargar.</source>
+                <target>Select from the combobox on the left the type of operation of the expense to be charged.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">94</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Describe el gasto" datatype="html">
+                <source>Describe el gasto</source>
+                <target>Describe the expense</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">100</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help2" datatype="html">
+                <source> del fondo.</source>
+                <target> From the bottom.</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">102</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Archivo XML" datatype="html">
+                <source>Archivo XML</source>
+                <target>XML file</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">112</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Seleccionar XML" datatype="html">
+                <source>Seleccionar XML</source>
+                <target>Select XML</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">115</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="XML seleccionado" datatype="html">
+                <source>XML seleccionado</source>
+                <target>Selected XML</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">116</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Archivo PDF" datatype="html">
+                <source>Archivo PDF</source>
+                <target>PDF file</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">128</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Seleccionar PDF" datatype="html">
+                <source>Seleccionar PDF</source>
+                <target>Select PDF</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">131</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="PDF seleccionado" datatype="html">
+                <source>PDF seleccionado</source>
+                <target>Selected PDF</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">132</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Campos obligatorios" datatype="html">
+                <source>Campos
+                        obligatorios</source>
+                <target>Required fields</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">145</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help4" datatype="html">
+                <source>Para poder enviar el gasto le hace falta cumplir con lo
+                        siguiente</source>
+                <target>To be able to send the expense you need to comply with the following</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">148</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help5" datatype="html">
+                <source>Llenar el campo texto</source>
+                <target>Fill the text field</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">151</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help6" datatype="html">
+                <source>Llenar el campo asignación
+                        </source>
+                <target>Fill the assignment field
+                        </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">152</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help7" datatype="html">
+                <source>Llenar solo uno de los
+                            campos centro de costos, elemento pep y grafo</source>
+                <target>Fill only one of the cost center fields, pep and graph element</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">154</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help8" datatype="html">
+                <source>Si llena el
+                            campo grafo debe llenar tambien el campo operación grafo</source>
+                <target>If you fill in the field you must also fill in the field operation graph</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">156</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help9" datatype="html">
+                <source>Seleccionar un archivo XML</source>
+                <target>Select an XML file</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">159</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help10" datatype="html">
+                <source>Seleccionar un archivo PDF</source>
+                <target>Select a PDF file</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">160</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="Verifica las cantidades" datatype="html">
+                <source>Verifica las cantidades</source>
+                <target>Check the quantities</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">166</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help11" datatype="html">
+                <source>Verifica las cantidades antes de enviar el gasto</source>
+                <target>Verify the quantities before sending the expense</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">168</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="cajachi.gastosolform.help12" datatype="html">
+                <source>Los campos de arriba se deben llenar a mano, a menos que se
+                    cargue un XML, entonces se extraeran de este</source>
+                <target>The fields above must be filled out by hand, unless an XML is loaded, then they will be extracted from this</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">app/caja-chica/gasto-solicitud-caja-chica-form/gasto-solicitud-caja-chica-form.component.html</context>
+                    <context context-type="linenumber">227</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="proveedores.em.numeroDeProveedor">
+                <target>Vendor number</target>
+            </trans-unit>
+            <trans-unit id="contelec.aceptar">
+                <target>Accept</target>
+            </trans-unit>
+            <trans-unit id="proveedores.em.ingresaElProveedor">
+                <target>Enter the vendor</target>
+            </trans-unit>
+            <trans-unit id="proveedores.em.ingresaElProveedorDetalle">
+                <target>Enter the number of the vendor who you want to upload invoices for, then press the button</target>
+            </trans-unit>
+            <trans-unit id="proveedores.emfb60.seleccioneLosArchivos">
+                <target>Select the files</target>
+            </trans-unit>
+            <trans-unit id="proveedores.emfb60.seleccioneLosArchivosInfo">
+                <target>Select the XML and PDF files that you want to upload pressing the corresponging buttons in the panel below; once selected press the button in the botton to send them</target>
+            </trans-unit>
+            <trans-unit id="Usuario">
+                <target>User</target>
+            </trans-unit>
+            <trans-unit id="login.enviarCorreoDeRecuperacion">
+                <target>Send password recovery email</target>
+            </trans-unit>
+            <trans-unit id="proveedores.em.titulo">
+                <target>Purchase delivery notes invoice uploading</target>
+            </trans-unit>
+            <trans-unit id="Ocultar">
+                <target>Hide</target>
+            </trans-unit>
+            <trans-unit id="FiltrarModulos">
+                <target>Filter modules</target>
+            </trans-unit>
+            <trans-unit id="XML Seleccionado">
+                <target>XML selected</target>
+            </trans-unit>
+            <trans-unit id="PDF Seleccionado">
+                <target>PDF selected</target>
+            </trans-unit>
+            
+            <trans-unit id="siNecesitaAyudaPuedeLeerEl">
+                <target>If you need help you can read the </target>
+            </trans-unit>
+            <trans-unit id="manualAdministracionGeneral">
+                <target>general administration manual</target>
+            </trans-unit>
+            <trans-unit id="manualAdministracionCajaChica">
+                <target>petty cash administration manual</target>
+            </trans-unit>
+            <trans-unit id="manualAdministracionViajes">
+                <target>travel administration manual</target>
+            </trans-unit>
+            <trans-unit id="manualDeEmpleadosFb60">
+                <target>employee FB60 manual</target>
+            </trans-unit>
+            <trans-unit id="manualCajaChica">
+                <target>petty cash manual</target>
+            </trans-unit>
+            <trans-unit id="manualGastosViaje">
+                <target>travel expenses manual</target>
+            </trans-unit>
+
+            <trans-unit id="Bienvenido">
+                <target>Welcome! </target>
+            </trans-unit>
+            <trans-unit id="SeleccioneUnaOpcionDelMenu">
+                <target>Choose an option from the menu &#x2630;</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

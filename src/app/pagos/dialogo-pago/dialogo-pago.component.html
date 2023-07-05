@@ -1,0 +1,80 @@
+<h2 mat-dialog-title>{{titulo}}</h2>
+
+<mat-dialog-content>
+    <div class="iigwo-input" style="margin-right: 0; min-width: 240px;">
+        <!--<label>Cliente</label>-->
+        <div class='wrapper'>
+            <label>
+                <div style='display: inline;'>Cliente</div>
+                <a (click)='mostrarCraerNvoClt = true'>Crear cliente</a>
+            </label>
+        </div>
+        <select [(ngModel)]="pago.usuario" [disabled]="esPaciente">
+            <option *ngFor="let p of usuarios" [ngValue]="p">{{p.nombre}}</option>
+        </select>
+    </div>
+
+    <div class="iigwo-input" style="margin-right: 0;">
+        <label>Fecha</label>
+        <input type="date" [(ngModel)]="pago.fecha" [readOnly]="esPaciente">
+    </div>
+
+    <div class="iigwo-input" style="margin-right: 0;">
+        <div class="wrapper">
+            <label>Monto</label>
+        </div>
+        
+        <div class="currency">
+            <input type="number" [ngModel]="!esPaciente ? pago.monto : (pago.monto | currency : 'MXN' : 'symbol' : undefined : 'es-Mx')"
+                (ngModelChange)="pago.monto = $event"
+                (keypress)="utilService.validateInput($event)" [readOnly]="esPaciente">
+            <span [hidden]='esPaciente'>$</span>
+        </div>
+    </div>
+
+    <div class="iigwo-input" style="margin-right: 0;">
+        <label>Tipo</label>
+        <select [(ngModel)]="pago.tipoMovimiento" [disabled]="esPaciente">
+            <option *ngFor="let t of tiposPago" [ngValue]="t">{{t.descripcion}}</option>
+        </select>
+    </div>
+
+    <div class="iigwo-input descripcion" style="margin-right: 0;">
+        <label>Descripción</label>
+        <textarea type="string" [(ngModel)]="pago.descripcion" style="min-height: 130px; max-width: 900px;" [readOnly]="esPaciente"></textarea>
+    </div>
+
+    
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button *ngIf="!creando && !esPaciente" class="iigwo" (click)='eliminar()'>Eliminar</button>
+    <button class="iigwo" style="margin-left:auto;" [ngStyle]="{'margin-right': esPaciente ? '0' : ''}" (click)='cerrar()'>{{creando ? "Cancelar" : "Cerrar"}}</button>
+    <button *ngIf="creando && !esPaciente" class="iigwo accent" style="margin-right:0;" (click)='crear()'>Crear</button>
+    <button *ngIf="!creando && !esPaciente" class="iigwo accent" style="margin-right:0;" (click)='editar()'>Guardar cambios</button>
+
+</mat-dialog-actions>
+
+<!-- CARGANDO-->
+<div class='iigwo-loading' *ngIf="cargando">
+    <mat-spinner></mat-spinner>
+</div>
+
+
+<div *ngIf='mostrarCraerNvoClt' class='iigwo-dialog-background'>
+    <div class='iigwo-dialog'>
+        <h3> Crear nuevo cliente</h3>
+        <p>Al crear el cliente podras completar todos los datos en el módulo de administrador</p>
+
+        <div [ngClass]="{'iigwo-input' : true, 'error' : faltaNombreClt}">
+            <label>Nombre</label>
+            <input [(ngModel)]="usuario.nombre" type="string">
+        </div>
+        <p style="margin-top: -8px; margin-bottom: 18px; font-size: 11px" *ngIf="faltaNombreClt">No debe faltar el nombre</p>
+
+        <button class="iigwo accent" style="margin-right:0;" (click)='crearCilente()'>Crear</button>
+        <button class="iigwo"  (click)='mostrarCraerNvoClt = false'>Cancelar</button>
+    </div>
+    
+</div>

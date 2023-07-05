@@ -1,0 +1,65 @@
+<h2 mat-dialog-title>{{titulo}}</h2>
+
+<mat-dialog-content width='500px'>
+        
+        <table class='big' *ngIf="!(usuarios.length == 0)">
+            <tr>
+                <th class=''><input type="checkbox" [checked]="estanTodosSeleccionados()"
+                        (change)="checkAll($event)"></th>
+                <th class='' i18n="@@usuarios.Id">Id</th>
+                <th class='' i18n="@@usuarios.Nombre">Nombre</th>
+                <th class='' i18n="@@usuarios.Usuario">Usuario</th>
+                <th class='' i18n="@@usuarios.Correo electrónico">Correo electrónico</th>
+                <th class='' i18n="@@usuarios.Rol">Rol</th>
+            </tr>
+            <tr *ngFor='let e of usuarios | slice:paginacion.begin:paginacion.end'>
+                <td class=''><input type="checkbox" [checked]=" (e.idUsuario)"
+                        (change)="check($event, e.idUsuario)"></td>
+                <td class=''><a (click)="editarUsuario(e.idUsuario)">{{e.idUsuario}}</a></td>
+                <td class=''><a (click)="editarUsuario(e.idUsuario)">{{e.nombre}}</a></td>
+                <td class='accent'>{{e.usuario}}</td>
+                <td class='accent'>{{e.correoElectronico}}</td>
+                <td class='accent'>{{e.rol}}</td>
+            </tr>
+
+            <tr>
+                <td colspan="99" style="text-align: right;line-height: 24px;" class="mini">
+                    <label i18n="@@Registros por página">
+                    Registros por página</label>
+                    <select [(ngModel)]="paginacion.size" (ngModelChange)="paginacion.fix()"
+                        style="margin: 0 8px; font-family: regular; height: 24px;">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                    {{paginacion.begin + 1}}-{{paginacion.end}} de {{paginacion.array.length}}
+                    <button class="iigwo small" style="margin: 0 0 0 8px; padding:0; height: 24px; min-height: 24px;"
+                        (click)="paginacion.back();">
+                        <mat-icon svgIcon="arrow-back"></mat-icon>
+                    </button>
+                    <button class="iigwo small" style="margin: 0 0 0 8px; padding:0; height: 24px; min-height: 24px;"
+                        (click)="paginacion.forward();">
+                        <mat-icon svgIcon="arrow-forward"></mat-icon>
+                    </button>
+                </td>
+            </tr>
+
+        </table>
+   
+   
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button *ngIf="!creando" class="iigwo" (click)='eliminar()'>Eliminar</button>
+    <button class="iigwo" style="margin-left:auto;" (click)='cerrar()'>{{creando ? "Cancelar" : "Cerrar"}}</button>
+    <button *ngIf="creando" class="iigwo accent" style="margin-right:0;" (click)='crear()'>Crear</button>
+    <button *ngIf="!creando" class="iigwo accent" style="margin-right:0;" (click)='editar()'>Guardar cambios</button>
+
+</mat-dialog-actions>
+
+<!-- CARGANDO-->
+<div class='iigwo-loading' *ngIf="cargando">
+    <mat-spinner></mat-spinner>
+</div>

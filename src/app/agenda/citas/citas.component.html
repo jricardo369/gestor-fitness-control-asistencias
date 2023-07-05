@@ -1,0 +1,102 @@
+<app-workspace-nav>
+    <app-agenda-nav></app-agenda-nav>
+</app-workspace-nav>
+<div class='workspace'>
+    <div class='main'>
+
+        <app-experimental-menu titulo="Citas" i18n-titulo="@@Configuración general">
+
+            <button (click)='crearAsistenciaAClase()'>
+                <mat-icon svgIcon="add-box"></mat-icon>
+                <label i18n="@@Crear usuario">Agregar Asistencia a Clase</label>
+            </button>
+        
+        </app-experimental-menu>
+
+        <div class='content' >
+            
+            <div style="margin-bottom: 20px; display:flex;">
+                <div class="iigwo-input" style="min-width: 240px;" >
+                    <label>Clases</label>
+                    <select [(ngModel)]="clases">
+                        <option *ngFor="let c of clases" [ngValue]="p">{{c.nombre}}</option>
+                    </select>
+                </div>
+                <div class="iigwo-input" style="width: 118px;">
+                    <label>Fecha</label>
+                    <input type="date" [(ngModel)]="fecha" >
+                </div>
+
+                <button class='iigwo accent' (click)='refrescar()' style="align-self: flex-end;">
+                    <mat-icon svgIcon="search"></mat-icon>
+                    <label>Buscar</label>
+                </button>
+            </div>
+
+            <!-- TABLA CON REGISTROS -->
+            <div style="display:flex; overflow: auto;">
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">LUNES</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.lunes" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">MARTES</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.martes" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">MIERCOLES</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.miercoles" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">JUEVES</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.jueves" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">VIERNES</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.viernes" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">SABADO</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.sabado" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+                <div style="width: 144px;">
+                    <div><p class="accent header-dia">DOMINGO</p></div>
+                    <div class="asistencia" *ngFor="let c of asitenciasAClases.domingo" (click)="abrirCita(c)">
+                        <p class="nombre">{{c.clase.nombre}}</p>
+                        <p class="asistencias">{{usuariosDeClase(c.usuarios)}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <p style="margin-top: 12px; margin-bottom: 18px; font-size: 11px;">
+                <span i18n="@@siNecesitaAyudaPuedeLeerEl">Si necesita ayuda puede leer el
+                </span>
+                <a target="_blank" [href]='utilService.rutaManual("ManualAdministracionGeneral")' i18n="@@manualAdministracionGeneral">manual de Administración General</a>
+            </p> -->
+
+        </div>
+
+        <!--Cargando-->
+        <div class='iigwo-loading' *ngIf="cargando">
+            <mat-spinner></mat-spinner>
+        </div>
+    </div>
+</div>

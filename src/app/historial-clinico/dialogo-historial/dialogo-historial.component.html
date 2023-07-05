@@ -1,0 +1,92 @@
+<h2 mat-dialog-title>{{titulo}}</h2>
+
+<mat-dialog-content style="max-width: 900px;">
+    <div class="iigwo-input" style="margin-right: 0;">
+        <label>Paciente</label>
+        <select [(ngModel)]="historial.paciente" [disabled]="esPaciente">
+            <option *ngFor="let p of pacientes" [ngValue]="p">{{p.nombre}}</option>
+        </select>
+    </div>
+
+    <div class="iigwo-input" style="margin-right: 0;">
+        <label>Fecha</label>
+        <input type="date" [(ngModel)]="historial.fecha" [readOnly]="esPaciente">
+    </div>
+
+    <div class="iigwo-input descripcion" style="margin-right: 0;">
+        <label>Descripción</label>
+        <textarea type="string" [(ngModel)]="historial.descripcion" style="min-height: 130px; max-width: 900px;" [readOnly]="esPaciente"></textarea>
+    </div>
+
+    <div class="iigwo-input" style="margin-right: 0;">
+        <label>Tipo</label>
+        <select [(ngModel)]="historial.tipo" [disabled]="esPaciente">
+            <option *ngFor="let t of tiposHistoriales" [ngValue]="t">{{t.descripcion}}</option>
+        </select>
+    </div>
+
+    <div class="iigwo-input" *ngIf="creando" style="margin-right: 0;">
+        <label>Cargar imagen de odontograma</label>
+
+        <!-- <label for='fileId'
+            [class]='file==null?"fake-button accent":"fake-button"'
+            tabindex="0">
+            <span *ngIf="file==null">Seleccionar Archivo</span>
+            <span *ngIf="file!=null">Archivo Seleccionado</span>                    
+        </label>
+
+        <label style="display: inline-block; line-height: 32px; font-size: 13px; color:rgba(0,0,0,0.5);"
+            *ngIf="file==null">No hay archivo seleccionado</label>
+        <label style="display: inline-block; line-height: 32px; font-size: 13px;"
+            *ngIf="file!=null">{{file.name}}</label>
+        <input id='fileId' type="file" #fileInput (change)="onFileSelected(fileInput.files)"
+            accept="image/*" style='display:none;'> -->
+        
+        
+        <label for='fileId'
+            [class]='file.length == 0 ?"fake-button accent":"fake-button"'
+            tabindex="0">
+            <span *ngIf="file.length == 0">Seleccionar Archivos</span>
+            <span *ngIf="file.length > 0">Archivos Seleccionados</span>                    
+        </label>
+
+        <label style="display: inline-block; line-height: 32px; font-size: 13px; color:rgba(0,0,0,0.5);"
+            *ngIf="file==null">No hay archivos seleccionados</label>
+        <div *ngFor="let f of file" style="display: inline-block;">
+            <span class="badge-file-icon"><mat-icon svgIcon="attach_file"></mat-icon></span>
+            <span class="badge-file" style="padding-right: 21px;">{{f.name}}</span>
+            <span style="margin-left: -18px;">
+                    <button class="iigwo adjuntos-options" (click)="quitarAdjunto(f)">
+                        <mat-icon style="margin-top: 1px;" svgIcon="close"></mat-icon>
+                    </button>
+            </span>
+        </div>
+
+        <input id='fileId' type="file" #fileInput (change)="onFileSelected(fileInput.files)"
+            accept="image/*" style='display:none;' multiple>
+    </div>
+
+    <div *ngIf="!creando && adjuntos.length > 0">
+        <label style="display: block; color: rgba(0, 0, 0, 0.7); margin-bottom: 4px; font-size: 12px;">Imagen:</label>
+
+        <div style="max-width: 912px; margin-top: 4px;">
+            <img *ngFor="let a of adjuntos" [src]="a.ruta" alt="" style="height: 100px; width: auto; margin: 0 2px; cursor: pointer; border: 1px solid rgba(0,0,0,0.2);" (click)="abrirAdjunto(a)">
+        </div>
+    </div>
+
+    
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button *ngIf="!creando && !esPaciente" class="iigwo" (click)='eliminar()'>Eliminar</button>
+    <button class="iigwo" style="margin-left:auto;" [ngStyle]="{'margin-right': esPaciente ? '0' : ''}" (click)='cerrar()'>{{creando ? "Cancelar" : "Cerrar"}}</button>
+    <button *ngIf="creando && !esPaciente" class="iigwo accent" style="margin-right:0;" (click)='crear()'>Crear</button>
+    <button *ngIf="!creando && !esPaciente" class="iigwo accent" style="margin-right:0;" (click)='editar()'>Guardar cambios</button>
+
+</mat-dialog-actions>
+
+<!-- CARGANDO-->
+<div class='iigwo-loading' *ngIf="cargando">
+    <mat-spinner></mat-spinner>
+</div>

@@ -1,0 +1,152 @@
+<h2 mat-dialog-title>{{titulo}}</h2>
+
+<mat-dialog-content style="padding-right: 12px;">
+
+    
+        <div style="display:flex; margin-bottom: 12px;">
+
+            <div style="min-width: 332px; margin-right: 12px;">
+
+                <div class="iigwo-input " >
+                    <label>Rol</label>
+                    <select [(ngModel)]="usuario.rol">
+                        <option value="1">Administrador</option>
+                        <option value="3">Usuario Portal</option>
+                    </select>
+                </div>
+            
+                <!--<div class="iigwo-input" *ngIf="usuario.rol == '3'">
+                    <label>Paciente relacionado</label>
+                    <select [(ngModel)]="paciente"
+                        (ngModelChange)="pacienteSelected()" >
+                        <option *ngFor="let p of pacientes" [ngValue]="p">{{p.nombre}}</option>
+                    </select>
+                </div>-->
+
+                <h4 style="margin: 0 0 12px 0" >Datos de usuario</h4>
+
+                <div class="iigwo-input">
+                    <label>Usuario</label>
+                    <input type="text" [(ngModel)]="usuario.usuario">
+                </div>
+
+                <div class="iigwo-input">
+                    <label>Password</label>
+                    <input type="password" [(ngModel)]="usuario.contrasenia">
+                </div>
+
+                <div class="iigwo-input" style="margin-top: 120px;">
+                    <label>Correo electrónico</label>
+                    <input type="email" [(ngModel)]="usuario.correoElectronico">
+                </div>
+
+            </div>
+            <div style="min-width: 332px;">
+
+                <h4 style="margin: 0 0 12px 0">Datos personales</h4>
+
+                <div class="iigwo-input">
+                    <label>Nombre</label>
+                    <input type="text" [(ngModel)]="usuario.nombre">
+                </div>
+
+                <div class="iigwo-input">
+                    <label>Dirección</label>
+                    <input type="text" [(ngModel)]="usuario.direccion">
+                </div>
+
+                <div class="iigwo-input">
+                    <label>Ciudad</label>
+                    <input type="text" [(ngModel)]="usuario.ciudad">
+                </div>
+
+                <div class="iigwo-input">
+                    <label>Edad</label>
+                    <input type="number" [(ngModel)]="usuario.edad">
+                </div>
+
+                <div class="iigwo-input">
+                    <label>Sexo</label>
+                    <select [(ngModel)]="usuario.sexo">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+                </div>
+
+                <div class="iigwo-input">
+                    <label>Telefono</label>
+                    <input type="tel" [(ngModel)]="usuario.telefono">
+                </div>
+            </div>
+        </div>
+        <div *ngIf="usuario.rol == '2'">
+            <h4 style="margin: 0 0 12px 0">Permisos</h4>
+
+            <p style="margin: 0 0 12px 0;font-size:11px;"
+                i18n="@@Asigne los permisos para dar acceso a pantallas etc">Asigne los permisos para dar acceso a
+                pantallas y
+                operaciones</p>
+            <div style="display:flex; margin-bottom: 12px;">
+
+                <div style="min-width: 332px; margin-right: 12px;">
+
+                    <div class="iigwo-input" style="margin: 0;" *ngFor="let p of permisos">
+                        <input type="checkbox"
+                            style="width: 15px;display: inline-block;line-height: 18px;margin: 0 6px 0 0;"
+                            [checked]="estaSeleccionado(p)" (change)="check($event, p)">
+                        <label style="display: inline-block;line-height: 24px;margin: 0;font-size: 12px;"
+                            >{{p.nombre}}</label>
+                    </div>
+
+                </div>
+
+                <!-- <div style="min-width: 332px;">
+
+                    <div class="iigwo-input" style="margin: 0;">
+                        <input type="checkbox"
+                            style="width: 15px;display: inline-block;line-height: 18px;margin: 0 6px 0 0;">
+                        <label style="display: inline-block;line-height: 24px;margin: 0;font-size: 12px;"
+                            >Visualizar pagos</label>
+                    </div>
+
+                    <div class="iigwo-input" style="margin: 0;">
+                        <input type="checkbox"
+                            style="width: 15px;display: inline-block;line-height: 18px;margin: 0 6px 0 0;">
+                        <label style="display: inline-block;line-height: 24px;margin: 0;font-size: 12px;"
+                            >Alta de pagos</label>
+                    </div>
+
+                    <div class="iigwo-input" style="margin: 0;">
+                        <input type="checkbox"
+                            style="width: 15px;display: inline-block;line-height: 18px;margin: 0 6px 0 0;">
+                        <label style="display: inline-block;line-height: 24px;margin: 0;font-size: 12px;"
+                            >Ver Reportes</label>
+                    </div>
+
+                    <div class="iigwo-input" style="margin: 0;">
+                        <input type="checkbox"
+                            style="width: 15px;display: inline-block;line-height: 18px;margin: 0 6px 0 0;">
+                        <label style="display: inline-block;line-height: 24px;margin: 0;font-size: 12px;"
+                            >Pacientes</label>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+    
+    
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button *ngIf="!creando" class="iigwo" (click)='eliminar()'>Eliminar</button>
+    <button class="iigwo" style="margin-left:auto;" (click)='cerrar()'>Cancelar</button>
+    <button *ngIf="creando" class="iigwo accent" style="margin-right:0;" (click)='crear()'>Crear</button>
+    <button *ngIf="!creando" class="iigwo accent" style="margin-right:0;" (click)='editar()'>Guardar cambios</button>
+
+</mat-dialog-actions>
+
+<!-- CARGANDO-->
+<div class='iigwo-loading' *ngIf="cargando">
+    <mat-spinner></mat-spinner>
+</div>

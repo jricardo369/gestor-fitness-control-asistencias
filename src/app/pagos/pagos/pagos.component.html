@@ -1,0 +1,133 @@
+<app-workspace-nav>
+    <app-pagos-nav></app-pagos-nav>
+</app-workspace-nav>
+<div class='workspace'>
+    <div class='main'>
+
+        <app-experimental-menu [titulo]="titulo" i18n-titulo="@@Configuración general">
+
+            <button (click)='crearPago()' *ngIf="!esPaciente">
+                <mat-icon svgIcon="add-box"></mat-icon>
+                <label i18n="@@Crear usuario">Crear Pago</label>
+            </button>
+
+            <!-- <button (click)='refrescar()'>
+                <mat-icon svgIcon="refresh"></mat-icon>
+                <label i18n="@@Refrescar">Refrescar</label>
+            </button> -->
+
+            <button (click)='descargarPdfGeneral()' *ngIf="!esPaciente">
+                <mat-icon svgIcon="file-download"></mat-icon>
+                <label>Descargar PDF General</label>
+            </button>
+            <button (click)='descargarPdfPaciente()' *ngIf="!esPaciente" [disabled]='!(this.usuario && this.usuario.idUsuario)'>
+                <mat-icon svgIcon="file-download"></mat-icon>
+                <label>Descargar PDF de Cliente</label>
+            </button>
+        
+        </app-experimental-menu>
+
+        <div class='content' >
+            <div style="display:flex;">
+                <div class="iigwo-input" style="margin: 15px 15px 0 0;">
+                    <input type="checkbox"
+                        style="width: 15px;display: inline-block;line-height: 18px;margin: 0 6px 0 0;" (change)="toggleButton()">
+                    <label style="display: inline-block;line-height: 24px;margin: 0;font-size: 12px;"
+                        >Todos los clientes</label>
+                </div>
+                <div class="iigwo-input" style="min-width: 240px;" *ngIf="!switchCase">
+                    <label>Cliente</label>
+                    <select [(ngModel)]="usuario">
+                        <option *ngFor="let p of usuarios" [ngValue]="p">{{p.nombre}}</option>
+                    </select>
+                </div>
+                <div class="iigwo-input">
+                    <label>Fecha inicio</label>
+                    <input [(ngModel)]="fechaInicio" type="date">
+                </div>
+                <div class="iigwo-input">
+                    <label>Fecha fin</label>
+                    <input [(ngModel)]="fechaFin" type="date">
+                </div>
+
+                <button class='iigwo accent btn-search' (click)='refrescar()' [disabled]='!(this.usuario && this.usuario.idUsuario || switchCase)'>
+                    <mat-icon svgIcon="search"></mat-icon>
+                    <label>Buscar</label>
+                </button>
+            </div>
+
+            <div style="display:flex; flex-flow: column; overflow: auto;">
+                <table>
+                    <tr>
+                        <td style="border: 0;font-size: 15px; color: black;" colspan="2">
+                            Total cargos: <label style="color: green;">{{reporteMovimiento.totalAdeudos | currency : 'MXN' : 'symbol' : undefined : 'es-Mx'}}</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 0;font-size: 15px; color: black;">
+                            Total abonos: <label style="color: red;">{{reporteMovimiento.totalIngreso | currency : 'MXN' : 'symbol' : undefined : 'es-Mx'}}</label>
+                        </td>
+                        <td style="border: 0;font-size: 15px; color: black; text-align: right;">
+                            Saldo: <label style="color: blue;">{{reporteMovimiento.saldo | currency : 'MXN' : 'symbol' : undefined : 'es-Mx'}}</label>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table class='big'>
+                    <tr>
+                        <th class='' i18n="@@usuarios.Nombre" *ngIf="switchCase" width="40%">Nombre del cliente</th>
+                        <th class='' i18n="@@usuarios.Fecha" width="5%">Fecha</th>
+                        <th class='' i18n="@@usuarios.Descripcion" width="45%">Descripción</th>
+                        <th class='' i18n="@@usuarios.Tipo" width="5%">Tipo</th>
+                        <th class='' i18n="@@usuarios.Monto" width="5%">Monto</th>
+                    </tr>
+                    <tr *ngFor='let p of pagos | slice:paginacion.begin:paginacion.end' >
+                        <td class='' *ngIf="switchCase" width="40%"><a (click)="abrirPago(p.idMovimiento)">{{p.usuario.nombre}}</a></td>
+                        <td class='' width="5%">{{p.fecha.split(' ')[0] | date:'dd/MM/yyyy'}}</td>
+                        <td class='' width="45%">{{p.descripcion}}</td>
+                        <td class='accent Estatus' style="white-space: nowrap;" width="5%" >
+                            <span  [class]='p.tipoMovimiento.descripcion'>{{p.tipoMovimiento.descripcion}}</span>
+                        </td>
+                        <td class='number' width="5%">{{p.monto | currency : 'MXN' : 'symbol' : undefined : 'es-Mx'}}</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="99" style="text-align: right;line-height: 24px;" class="mini">
+                            <label i18n="@@Registros por página">
+                            Registros por página</label>
+                            <select [(ngModel)]="paginacion.size" (ngModelChange)="paginacion.fix()"
+                                style="margin: 0 8px; font-family: regular; height: 24px;">
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                            {{paginacion.begin + 1}}-{{paginacion.end}} de {{paginacion.array.length}}
+                            <button class="iigwo small" style="margin: 0 0 0 8px; padding:0; height: 24px; min-height: 24px;"
+                                (click)="paginacion.back();">
+                                <mat-icon svgIcon="arrow-back"></mat-icon>
+                            </button>
+                            <button class="iigwo small" style="margin: 0 0 0 8px; padding:0; height: 24px; min-height: 24px;"
+                                (click)="paginacion.forward();">
+                                <mat-icon svgIcon="arrow-forward"></mat-icon>
+                            </button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <!-- <p style="margin-top: 12px; margin-bottom: 18px; font-size: 11px;">
+                <span i18n="@@siNecesitaAyudaPuedeLeerEl">Si necesita ayuda puede leer el
+                </span>
+                <a target="_blank" [href]='utilService.rutaManual("ManualAdministracionGeneral")' i18n="@@manualAdministracionGeneral">manual de Administración General</a>
+            </p> -->
+        </div>
+
+        <!--Cargando-->
+        <div class='iigwo-loading' *ngIf="cargando">
+            <mat-spinner></mat-spinner>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,109 @@
+<app-workspace-nav>
+    <app-historial-clinico-nav></app-historial-clinico-nav>
+</app-workspace-nav>
+<div class='workspace'>
+    <div class='main'>
+
+        <app-experimental-menu [titulo]="titulo" i18n-titulo="@@Configuración general">
+
+            <button (click)='altaHistorial()' *ngIf="!esPaciente">
+                <mat-icon svgIcon="add-box"></mat-icon>
+                <label i18n="@@Crear usuario">Alta Historial</label>
+            </button>
+
+            <!-- <button (click)='refrescar()'>
+                <mat-icon svgIcon="refresh"></mat-icon>
+                <label i18n="@@Refrescar">Refrescar</label>
+            </button> -->
+
+            <button (click)='descargarPdf()' [disabled]='!(this.paciente && this.paciente.idCliente)'>
+                <mat-icon svgIcon="file-download"></mat-icon>
+                <label>Descargar PDF</label>
+            </button>
+        
+        </app-experimental-menu>
+
+        <div class='content' >
+            <div style="display:flex;">
+                <div class="iigwo-input" style="min-width: 240px;" *ngIf="!esPaciente">
+                    <label>Paciente</label>
+                    <select [(ngModel)]="paciente">
+                        <option *ngFor="let p of pacientes" [ngValue]="p">{{p.nombre}}</option>
+                    </select>
+                </div>
+                <div class="iigwo-input">
+                    <label>Fecha inicio</label>
+                    <input [(ngModel)]="fechaInicio" type="date">
+                </div>
+                <div class="iigwo-input">
+                    <label>Fecha fin</label>
+                    <input [(ngModel)]="fechaFin" type="date">
+                </div>
+
+                <button class='iigwo accent btn-search' (click)='refrescar()' [disabled]='!(this.paciente && this.paciente.idCliente)'>
+                    <mat-icon svgIcon="search"></mat-icon>
+                    <label>Buscar</label>
+                </button>
+            </div>
+
+            <hr style="margin-top: 0;" *ngIf="paciente && paciente.nombre">
+
+            <!-- TABLA CON REGISTROS -->
+            <div style="display: flex; flex-flow: column; overflow: auto;">
+
+                <!--DATOS DEL PACIENTE-->
+                <div style="display:flex; margin-bottom: 12px;" *ngIf="paciente && paciente.nombre">
+                    <div class="pacienteI">
+                        <div>
+                            <label class="nombre" style="text-align: center;">{{paciente.nombre}}</label>
+                            <label style="text-align: center;">{{paciente.edad}} años</label>
+                            <label class="activo" style="text-align: center;">{{paciente.estatus == '1' ? 'Activo': 'Inactivo'}}</label>
+                            <p style="text-align: center;">{{paciente.correoElectronico}}</p>
+                            <p class="fechaCreacion" style="margin-bottom: 0;">Fecha de creacion: {{paciente.fechaCreacion}}</p>
+                        </div>
+                    </div>
+                    <div class="pacienteC">
+                        <div>
+                            <label class="titulo">Dirección</label>
+                            <label>{{paciente.direccion}}</label>
+                        </div>
+                        <div>
+                            <label class="titulo">Telefono</label>
+                            <label>{{paciente.telefono}}</label>
+                        </div>
+                        <div>
+                            <label class="titulo">Ocupacion</label>
+                            <label style="margin-bottom: 0">{{paciente.ocupacion}}</label>
+                        </div>
+                    </div>
+                    <div class="pacienteD">
+                        <div *ngIf="historiaClinica.idHistorial">
+                            <label class="titulo">Historia clínica</label>
+                            <label style="margin-bottom: 0">{{historiaClinica.descripcion}}</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div *ngIf="historiales.length > 0">
+                    <div class="historial" *ngFor="let h of historiales" (click)="abrirHistorial(h.idHistorial)">
+                        <p class="fecha">{{h.fecha.split(' ')[0]}}</p>
+                        <p>{{h.tipo.descripcion}}</p>
+                        <p class="descripcion">{{h.descripcion}}</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- <p style="margin-top: 12px; margin-bottom: 18px; font-size: 11px;">
+                <span i18n="@@siNecesitaAyudaPuedeLeerEl">Si necesita ayuda puede leer el
+                </span>
+                <a target="_blank" [href]='utilService.rutaManual("ManualAdministracionGeneral")' i18n="@@manualAdministracionGeneral">manual de Administración General</a>
+            </p> -->
+        </div>
+
+        <!--Cargando-->
+        <div class='iigwo-loading' *ngIf="cargando">
+            <mat-spinner></mat-spinner>
+        </div>
+    </div>
+</div>

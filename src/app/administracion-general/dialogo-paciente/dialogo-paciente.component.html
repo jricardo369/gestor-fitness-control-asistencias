@@ -1,0 +1,104 @@
+<h2 mat-dialog-title>{{titulo}}</h2>
+
+<mat-dialog-content>
+    <div style="width: 800px;">
+        <h4 style="margin: 0 0 12px 0">Datos fiscales</h4>
+        <div >
+            <div class="iigwo-input">
+                <label>Nombre</label>
+                <input type="text" [(ngModel)]="paciente.nombre" style="width:100%">
+            </div>
+            <div class="iigwo-input">
+                <label>Razon Social</label>
+                <input type="text" [(ngModel)]="paciente.razonSocial">
+            </div>
+            
+        </div>
+
+        <h4 style="margin: 0 0 12px 0">Datos domicilio</h4>
+        <div class="datos" style="display:flex;">
+
+            <div class="iigwo-input">
+                <label>Domicilio Fiscal</label>
+                <input type="text" [(ngModel)]="paciente.domicilioFiscal">
+            </div>
+            
+        </div>
+
+        <div class="datos" style="display:flex;">
+
+            <div class="iigwo-input">
+                <label>Colonia</label>
+                <input type="text" [(ngModel)]="paciente.colonia">
+            </div>
+
+            <div class="iigwo-input">
+                <label>CP</label>
+                <input type="text" [(ngModel)]="paciente.cp">
+            </div>
+
+            <div class="iigwo-input">
+                <label>Entre calles</label>
+                <input type="text" [(ngModel)]="paciente.entreCalles">
+            </div>
+        </div>
+
+        <div class="datos" style="display:flex;">
+
+            <div class="iigwo-input" >
+                <label>Ciudad</label>
+                <input type="text" [(ngModel)]="paciente.ciudad">
+            </div>
+            <div class="iigwo-input" >
+                <label>Municipio</label>
+                <input type="text" [(ngModel)]="paciente.municipio">
+            </div>
+            <div class="iigwo-input" >
+                <label>Estdo</label>
+                <input type="text" [(ngModel)]="paciente.estado">
+            </div>
+        </div>
+
+        <h4 style="margin: 0 0 12px 0">Datos adicionales</h4>
+        <div class="datos" style="display:flex;">
+
+            <div class="iigwo-input">
+                <label>Telefono</label>
+                <input type="tel" [(ngModel)]="paciente.telefono">
+            </div>
+            <div class="iigwo-input">
+                <label>Correo electrónico</label>
+                <input type="email" [(ngModel)]="paciente.correoElectronico">
+            </div>
+
+            <div class="iigwo-input" >
+                <label>Estatus</label>
+                <select [(ngModel)]="paciente.estatus">
+                    <option value="1">Activo</option>
+                    <option value="0">Inactivo</option>
+                </select>
+            </div>    
+        </div>
+
+        <div class="iigwo-input" style="margin-right: 0;">
+            <label>Actividad comercial</label>
+            <input type="text" [(ngModel)]="paciente.actividadComercial">
+        </div>
+
+         
+    </div>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+
+    <button *ngIf="!creando" class="iigwo" (click)='eliminar()'>Eliminar</button>
+    <button class="iigwo" style="margin-left:auto;" (click)='cerrar()'>Cancelar</button>
+    <button *ngIf="creando" class="iigwo accent" style="margin-right:0;" (click)='crear()'>Crear</button>
+    <button *ngIf="!creando" class="iigwo accent" style="margin-right:0;" (click)='editar()'>Guardar cambios</button>
+
+</mat-dialog-actions>
+
+<!-- CARGANDO-->
+<div class='iigwo-loading' *ngIf="cargando">
+    <mat-spinner></mat-spinner>
+</div>

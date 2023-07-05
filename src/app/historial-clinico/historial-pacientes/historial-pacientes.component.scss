@@ -1,0 +1,111 @@
+.historial {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.historial p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.historial p.descripcion {
+    font-family: regular;
+    font-size: 13px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.historial p.fecha {
+    font-family: regular;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.pacienteI {
+    width: 25%;
+    padding: 10px 5px;
+}
+
+.pacienteI div {
+    display: grid;
+}
+
+.pacienteI .nombre {
+    font-size: 15px;
+}
+
+.pacienteI .activo {
+    color: green;
+}
+
+.pacienteI .fechaCreacion {
+    font-size: 11px;
+}
+
+.pacienteI p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.pacienteI label {
+    margin-bottom: 5px;
+}
+
+.pacienteC {
+    width: 50%;
+    padding: 10px 5px;
+}
+
+.pacienteC div {
+    display: grid;
+}
+
+.pacienteC div label {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.pacienteC div label.titulo {
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.pacienteD {
+    width: 25%;
+    padding: 10px 5px;
+}
+
+.pacienteD div {
+    display: grid;
+}
+
+.pacienteD div label {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.pacienteD div label.titulo {
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.btn-search {
+    align-self: flex-end;
+    height: 24px;
+    min-height: 24px;
+}
+
+.btn-search mat-icon {
+    height: 22px;
+}
+
+.btn-search label {
+    line-height: 22px;
+}
